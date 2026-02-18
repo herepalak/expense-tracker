@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+# 💸 Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautifully designed, human-friendly expense tracking web app built with React. No spreadsheets. No complexity. Just a clean, visual way to understand where your money goes.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript)
+![CSS](https://img.shields.io/badge/CSS-In--JS-264DE4?style=flat-square&logo=css3)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🖼️ Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> *Add a screenshot here after running the app — drag and drop an image into this section on GitHub*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 💰 **Budget Tracker** — Set a monthly budget and track spending in real time
+- 📊 **Visual Breakdown** — See spending per category with animated progress bars
+- 🗂️ **7 Smart Categories** — Food, Transport, Shopping, Bills, Health, Fun, Other
+- ➕ **Add Expenses** — Log title, amount, date and category instantly
+- 🔍 **Filter by Category** — View expenses for any specific category
+- 🗑️ **Delete Entries** — Remove any expense with one click
+- 📈 **Summary Stats** — Total entries, average spend, and active categories
+- ✎ **Editable Budget** — Update your budget anytime inline
+- 🎨 **Dark UI** — Elegant dark theme, easy on the eyes
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make sure you have the following installed:
 
-### `npm run eject`
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- npm (comes with Node.js)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**1. Clone the repository**
+```bash
+git clone https://github.com/herepalak/expense-tracker.git
+cd expense-tracker
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**2. Install dependencies**
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**3. Start the development server**
+```bash
+npm start
+```
 
-## Learn More
+**4. Open your browser and visit:**
+```
+http://localhost:3000
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+```
+expense-tracker/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js          # Main Expense Tracker component
+│   └── index.js        # React entry point
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠️ Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Technology | Purpose |
+|---|---|
+| React 18 | UI framework |
+| React Hooks (useState, useEffect) | State management |
+| CSS-in-JS (inline styles) | Styling & animations |
+| Chrome Extensions API | (Tab Reminder project) |
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📖 How to Use
 
-### Advanced Configuration
+1. **Set your budget** — Click the ✎ icon next to the budget amount to edit it
+2. **Add an expense** — Click the **+** button (top right) to open the form
+3. **Fill in details** — Enter title, amount, date and pick a category
+4. **Track visually** — Watch the budget bar and category breakdown update live
+5. **Filter expenses** — Click any category tab to filter the list
+6. **Delete entries** — Hover over any expense and click ✕ to remove it
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🗺️ Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [ ] Local storage support (data persists after refresh)
+- [ ] Export to CSV
+- [ ] Monthly view with charts
+- [ ] Recurring expenses
+- [ ] Multiple currency support
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contributing
+
+Contributions are welcome! Here's how:
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — feel free to use it, modify it, and build on it.
+
+---
+
+## 👩‍💻 Author
+
+**Palak**
+- GitHub: [@herepalak](https://github.com/herepalak)
+
+---
+
+> *"A budget is telling your money where to go instead of wondering where it went."*
